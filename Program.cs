@@ -24,7 +24,7 @@ namespace Calculadora___Modo_Console
                 //Mensagem explicando um pouco sobre como funciona o programa e quais os cálculos que ele realiza.
                 Console.WriteLine("\nComo funciona?");
                 Console.WriteLine("\nEssa calculadora faz o cálculo de dois números utilizando as quatro operações matemáticas básicas (observe os operadores abaixo):");
-                Console.WriteLine("\nAdição: + \t Subtração: - \t Divisão: / \t Multiplicação: *\n");
+                Console.WriteLine("\nAdição: + \t Subtração: - \t\t Divisão: / \t Multiplicação: *\n");
 
                 //Mensagem pedindo para o usuário digitar o primeiro número do cálculo.
                 Console.Write("\nDigite o primeiro número: ");
@@ -71,14 +71,15 @@ namespace Calculadora___Modo_Console
                 }
                 
                 /* Switch / case que verifica qual informação a variável "operador" armazena: "+", "-", "*", "/" e irá fazer o cálculo dos dois números com base no 
-                   operador, armazenando o resultado na variável "resultado" e logo em seguida será mostrado o cálculo feito e o resultado para o usuário em uma mensagem */
+                   operador, armazenando o resultado na variável "resultado" e logo em seguida será mostrado o cálculo feito e o resultado para o usuário em uma mensagem 
+                   no console */
                 switch (operador)
                 {
                     case "+":
 
                         resultado = numero1 + numero2;
 
-                        Console.WriteLine("\n\nCálculo: " + numero1 + operador + numero2 + "=" + resultado + "\t" + "Resultado: " + resultado);
+                        Console.WriteLine($"\n\nCálculo: {numero1} + {numero2} = {resultado} \t\t Resultado: {resultado}");
 
                         break;
 
@@ -86,7 +87,7 @@ namespace Calculadora___Modo_Console
 
                         resultado = numero1 - numero2;
 
-                        Console.WriteLine("\n\nCálculo: " + numero1 + operador + numero2 + "=" + resultado + "\t" + "Resultado: " + resultado);
+                        Console.WriteLine($"\n\nCálculo: {numero1} - {numero2} = {resultado} \t\t Resultado: {resultado}");
 
                         break;
 
@@ -94,7 +95,7 @@ namespace Calculadora___Modo_Console
 
                         resultado = numero1 * numero2;
 
-                        Console.WriteLine("\n\nCálculo: " + numero1 + operador + numero2 + "=" + resultado + "\t" + "Resultado: " + resultado);
+                        Console.WriteLine($"\n\nCálculo: {numero1} * {numero2} = {resultado} \t\t Resultado: {resultado}");
 
                         break;
 
@@ -113,7 +114,7 @@ namespace Calculadora___Modo_Console
 
                         resultado = numero1 / numero2;
 
-                        Console.WriteLine("\n\nCálculo: " + numero1 + operador + numero2 + "=" + resultado + "\t" + "Resultado: " + resultado);
+                        Console.WriteLine($"\n\nCálculo: {numero1} / {numero2} = {resultado} \t\t Resultado: {resultado}");
 
                         break;
                 }
@@ -125,7 +126,6 @@ namespace Calculadora___Modo_Console
                 if (Console.ReadKey().Key == ConsoleKey.Enter)
                 {
                     Console.Clear();
-
                 }
                 else
                 {

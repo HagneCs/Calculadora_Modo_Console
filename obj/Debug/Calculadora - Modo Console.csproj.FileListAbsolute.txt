@@ -5,3 +5,10 @@ E:\Programação\C#\Projetos em andamento\Calculadora - Modo Console\obj\Debug\C
 E:\Programação\C#\Projetos em andamento\Calculadora - Modo Console\obj\Debug\Calculadora - Modo Console.csproj.CoreCompileInputs.cache
 E:\Programação\C#\Projetos em andamento\Calculadora - Modo Console\obj\Debug\Calculadora - Modo Console.exe
 E:\Programação\C#\Projetos em andamento\Calculadora - Modo Console\obj\Debug\Calculadora - Modo Console.pdb
+E:\Programação\C#\Projetos concluídos\Calculadora - Modo Console\obj\Debug\Calculadora - Modo Console.csproj.AssemblyReference.cache
+E:\Programação\C#\Projetos concluídos\Calculadora - Modo Console\obj\Debug\Calculadora - Modo Console.csproj.CoreCompileInputs.cache
+E:\Programação\C#\Projetos concluídos\Calculadora - Modo Console\obj\Debug\Calculadora - Modo Console.exe
+E:\Programação\C#\Projetos concluídos\Calculadora - Modo Console\obj\Debug\Calculadora - Modo Console.pdb
+E:\Programação\C#\Projetos concluídos\Calculadora - Modo Console\bin\Debug\Calculadora - Modo Console.exe.config
+E:\Programação\C#\Projetos concluídos\Calculadora - Modo Console\bin\Debug\Calculadora - Modo Console.exe
+E:\Programação\C#\Projetos concluídos\Calculadora - Modo Console\bin\Debug\Calculadora - Modo Console.pdb
